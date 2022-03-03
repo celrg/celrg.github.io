@@ -1,0 +1,64 @@
+// custom variable
+
+// Tab text
+$primary: #665654;
+// Inner text
+$secondary: #ebdbb2;
+// comment text
+$info: #928374;
+// accent text
+$success: #b8bb26;
+$warning: #fb4934;
+// link text
+$danger: #83a598;
+// use this for main background
+$dark: #1d2021;
+
+// use this for tab backgrounds
+$light: #282828;
+
+// $navbar-brand-font-size: 2rem * 0.875;
+$navbar-brand-height: 7rem;
+$nav-tabs-border-color: $light;
+$nav-tabs-link-hover-border-color: $light;
+$thumbnail-border-color: $danger;
+$thumbnail-bg: $dark;
+
+// defining my own theme
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// $bg0: #282828;
+
+// $hard-gruvbox-theme-colors: (
+//   "bg0": $bg0 //   "bg0_h": #1d2021,
+//   "bg1": #3c3836,
+//   "bg2": #504945,
+//   "bg3": #665c54,
+//   "bg4": #7c6f64 //   $fg0: #fbf1c7,
+//   $fg1: #ebdbb2,
+//   $fg2: #d5c4a1,
+//   $fg3: #bdae93,
+//   $fg4: #a89984,
+//   $gruv-gray1: #a89984,
+//   $gruv-gray2: #928374,
+//   $gruv-red-1: #cc241d,
+//   $gruv-red-2: #fb4934,
+//   $gruv-green-1: #98971a,
+//   $gruv-green-2: #b8bb26,
+//   $gruv-yellow-1: #d79921,
+//   $gruv-yellow-2: #fabd2f,
+//   $gruv-blue-1: #458588,
+//   $gruv-blue-2: #83a598,
+//   $gruv-purple-1: #b16286,
+//   $gruv-purple-2: #d3869b,
+//   $gruv-aqua-1: #689d6a,
+//   $gruv-aqua-2: #8ec07c,
+//   $gruv-orange-1: #d65d0e,
+//   $gruv-orange-2: #fe8019,,,,,,,,
+// );
+
+// merging with bootstrap theme
+// $theme-colors: map-merge($hard-gruvbox-theme-colors, $theme-colors);
+
+// import all bootstrap sass
+@import "../node_modules/bootstrap/scss/bootstrap";

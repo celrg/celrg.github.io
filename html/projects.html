@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap cdn link -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+
+    <!-- custom sass stylesheet -->
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="icon" type="image/favicon" href="../content/favicon.ico" />
+
+    <title>Celine Rojas</title>
+  </head>
+  <style></style>
+  <body class="body bg-dark">
+    <div class="container-fluid">
+      <div class="main_content">
+        <div class="row bg-light">
+          <nav class="navbar navbar-light bg-light border border-1 border-info">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h2 text-primary">
+                celine-editor</span
+              >
+            </div>
+          </nav>
+        </div>
+        <div class="row">
+          <div class="col-2 bg-light rounded">
+            <!-- Tab navs -->
+            <div
+              class="nav rounded flex-column nav-tabs text-center"
+              id="v-tabs-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link"
+                id="v-tabs-home-tab"
+                data-mdb-toggle="tab"
+                href="index.html"
+                role="tab"
+                aria-controls="v-tabs-home"
+                aria-selected="true"
+                ><i class="folder text-info"></i>home</a
+              >
+              <a
+                class="nav-link"
+                id="v-tabs-about-me-tab"
+                data-mdb-toggle="tab"
+                href="about.html"
+                role="tab"
+                aria-controls="v-tabs-about-me"
+                aria-selected="false"
+                >about me</a
+              >
+
+              <a
+                class="nav-link"
+                id="v-tabs-projects-tab"
+                data-mdb-toggle="tab"
+                href="projects.html"
+                role="tab"
+                aria-controls="v-tabs-projects"
+                aria-selected="false"
+                >projects</a
+              >
+            </div>
+            <!-- Tab navs -->
+          </div>
+
+          <div class="col-10">
+            <!-- Tab content -->
+            <div class="tab-content" id="v-tabs-tabContent">
+              <div
+                class="tab-pane fade"
+                id="v-tabs-home"
+                role="tabpanel"
+                aria-labelledby="v-tabs-home-tab"
+              ></div>
+              <div
+                class="tab-pane fade"
+                id="v-tabs-about-me"
+                role="tabpanel"
+                aria-labelledby="v-tabs-profile-tab"
+              ></div>
+              <div
+                class="tab-pane fade show active"
+                id="v-tabs-projects"
+                role="tabpanel"
+                aria-labelledby="v-tabs-messages-tab"
+              >
+                <p class="text-warning">
+                  Below is a description of some of the projects that I have
+                  been a part of. See them on
+                  <a class="text-danger" href="https://github.com/celrg"
+                    >GitHub.</a
+                  >
+                </p>
+                <p class="text-info">// WEB CRAWLER</p>
+                <p class="text-secondary">
+                  This project entailed traversing through a simulated network
+                  of facebook profiles in order to find 5 "secret keys". The Web
+                  Crawler sent and processed the results of HTTPS requests
+                  without using existing libraries as per the contraints of the
+                  project. This entailed constructing requests and parsing the
+                  response HTML for cookies, links and flags. This
+                  implementation utilizes Keep-Alive connection for performance
+                  benefits.
+                </p>
+
+                <p class="text-success">
+                  SKILLS AND TECHNOLOGIES: Graph Traversal , HTTPS requests,
+                  HTML, authentication analysis, socket programming, Python,
+                  PyCharm
+                </p>
+
+                <p class="text-info">// DISTRIBUTED KEY-VALUE DATABASE</p>
+                <p class="text-secondary">
+                  Implemented the raft consesus algorithm in order to create a
+                  distributed key-value database. Project 'store' implements the
+                  algorithm as described on Stanford University's
+                  <a
+                    class="text-danger"
+                    href="https://raft.github.io/raft.pdf"
+                    target="blank_"
+                    >paper</a
+                  >
+                  detailing the structure of the system and the necessary
+                  processes to maintain it.
+                </p>
+
+                <p class="text-success">
+                  SKILLS AND TECHNOLOGIES: concurrent processes, socket
+                  programming, raft, python, PyCharm
+                </p>
+                <p class="text-info">// TWITTER LYRIC BOT</p>
+                <p class="text-secondary">
+                  Interfaces with Genius and Twitter developer tools. Hosted
+                  with AWS tools. Grabs lyrics from Genius' databasae using the
+                  lyricsgenius database that Interfaces with Genius' public API.
+                  The bot is currently under modification to remove the
+                  lyricsgenius dependecy and instead directly interface with the
+                  API.
+                </p>
+                <p class="text-success">
+                  SKILLS AND TECHNOLOGIES: Twitter developer tools, Genius
+                  developer tools, AWS, HTML, lyricsgenius, socket programming,
+                  Python, PyCharm
+                </p>
+
+                <p class="text-info">// IMAGE PROCESSOR</p>
+                <p class="text-secondary">
+                  Implemented SOLID principles and MVC design in order to create
+                  a fully functioning image-processor that is open to extension
+                  but closed to modification. Utilized the builder pattern and
+                  function objects for feature flexibility. Worked
+                  collaboratively through github in a linux-enviroment.
+                </p>
+
+                <p class="text-success">
+                  SKILLS AND TECHNOLOGIES: Object-Oriented Design, MVC, Builder
+                  Pattern, Extensible Design, GUI display, GitHub, Processing
+                  FileTypes, Java, Intellij
+                </p>
+                <p class="text-info">// MARBLE SOLITAIRE</p>
+                <p class="text-secondary">
+                  Focused on abstraction in order to create multiple versions of
+                  the game Marble Solitaire with as little modification as
+                  possible. Implemented MVC design.
+                </p>
+
+                <p class="text-success">
+                  SKILLS AND TECHNOLOGIES: Object-Oriented Design, MVC, Java,
+                  Intellij
+                </p>
+              </div>
+            </div>
+            <!-- Tab content -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-white">
+      <!-- Copyright -->
+      <div class="text-center text-warning p-3">
+        © 2022 Copyright:
+        <a class="text-warning" href="https://ce-lrg.com/" target="blank_"
+          >ce-lrg.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

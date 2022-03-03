@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap cdn link -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+
+    <!-- custom sass stylesheet -->
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <link rel="icon" type="image/favicon" href="../content/favicon.ico" />
+
+    <title>Celine Rojas</title>
+  </head>
+  <style></style>
+  <body class="body bg-dark">
+    <div class="container-fluid">
+      <div class="main_content">
+        <div class="row bg-light">
+          <nav class="navbar navbar-light bg-light border border-1 border-info">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h2 text-primary">
+                celine-editor</span
+              >
+            </div>
+          </nav>
+        </div>
+        <div class="row">
+          <div class="col-2 bg-light rounded">
+            <!-- Tab navs -->
+            <div
+              class="nav rounded flex-column nav-tabs text-center"
+              id="v-tabs-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link"
+                id="v-tabs-home-tab"
+                data-mdb-toggle="tab"
+                href="index.html"
+                role="tab"
+                aria-controls="v-tabs-home"
+                aria-selected="true"
+                ><i class="folder text-info"></i>home</a
+              >
+              <a
+                class="nav-link"
+                id="v-tabs-about-me-tab"
+                data-mdb-toggle="tab"
+                href="about.html"
+                role="tab"
+                aria-controls="v-tabs-about-me"
+                aria-selected="false"
+                >about me</a
+              >
+
+              <a
+                class="nav-link"
+                id="v-tabs-projects-tab"
+                data-mdb-toggle="tab"
+                href="projects.html"
+                role="tab"
+                aria-controls="v-tabs-projects"
+                aria-selected="false"
+                >projects</a
+              >
+            </div>
+            <!-- Tab navs -->
+          </div>
+
+          <div class="col-10">
+            <!-- Tab content -->
+            <div class="tab-content" id="v-tabs-tabContent">
+              <div
+                class="tab-pane fade"
+                id="v-tabs-home"
+                role="tabpanel"
+                aria-labelledby="v-tabs-home-tab"
+              ></div>
+              <div
+                class="tab-pane fade show active"
+                id="v-tabs-about-me"
+                role="tabpanel"
+                aria-labelledby="v-tabs-profile-tab"
+              >
+                <p class="text-secondary">
+                  I am currently seeking to expand my work experience.
+                  Specifically, I am interested in applying my technical
+                  skillset to software solutions that ultimately aide our
+                  communities. I am currently employed as a web developer for
+                  Kelsey Piepers enviromental research lab at Northeastern.
+                  There, we work to create a site that effectively communicates
+                  science research to under-reached communities. At
+                  Northeastern, I am involved in WRBB -- the schools radio
+                  station -- as a radio co-host and co-run weekly Tetris club
+                  meetings.
+                </p>
+                <p class="text-info">// here is a picture of me!</p>
+                <img
+                  src="../images/celine_smile.png"
+                  class="img-thumbnail"
+                  alt="Celine Rojas"
+                  width="300"
+                  height="300"
+                />
+
+                <p class="text-secondary">
+                  contact me on:
+                  <a
+                    class="text-danger"
+                    href="https://www.linkedin.com/in/celine-rojas/"
+                    target="blank_"
+                    >LinkedIn</a
+                  >
+                  <a
+                    class="text-danger"
+                    href="mailto:celine.rojas0202@gmail.com"
+                    >Email</a
+                  >
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-tabs-projects"
+                role="tabpanel"
+                aria-labelledby="v-tabs-messages-tab"
+              >
+                Messages content
+              </div>
+            </div>
+            <!-- Tab content -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-white">
+      <!-- Copyright -->
+      <div class="text-center text-warning p-3">
+        © 2022 Copyright:
+        <a class="text-warning" href="https://ce-lrg.com/" target="blank_"
+          >ce-lrg.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
