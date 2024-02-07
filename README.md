@@ -1,4 +1,5 @@
 # personal-website-ide
+Most recent edit: This is an outdated project from the beginnings of my web development journey. 
 
 Here are some images of the current in-progress version of the website.
 ![image](https://user-images.githubusercontent.com/53448381/159053349-4d8cd396-2cf2-48da-8c9f-8c82d2372782.png)
